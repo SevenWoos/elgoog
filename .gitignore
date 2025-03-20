@@ -17,12 +17,17 @@ local/
 gh-pages/
 *.egg-info/
 
+# Node modules & lock files
 /package-lock.json
 /node_modules/
 
 .idea/
 
+# Ignore versioned file for searxng settings
 searx/version_frozen.py
 .dir-locals.el
 
 .python-version
+
+# Ignore sensitive settings file
+searxng/settings.yml
